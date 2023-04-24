@@ -1,0 +1,28 @@
+﻿{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "target": "es5",
+    "sourceMap": true,
+    "skipDefaultLibCheck": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "paths": {
+      "@components/*": [ "./src/*" ]
+    },
+	},
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
